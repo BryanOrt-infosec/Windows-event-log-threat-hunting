@@ -114,3 +114,10 @@ Investigation notes were written to summarize the authentication activity observ
 Windows Security Event Logs provide critical visibility into authentication activity across systems.
 
 By monitoring failed and successful login events, security analysts can quickly identify suspicious login behavior and respond to potential security incidents.
+---
+
+## Author
+
+Bryan Ortega  
+Cybersecurity Student | Aspiring Security Analyst  
+GitHub: https://github.com/BryanOrt-infosec
