@@ -1,0 +1,21 @@
+Windows Event Log Threat Hunting Lab
+
+Summary:
+This project demonstrates how Windows Security logs can be used to investigate authentication activity in a lab environment.
+
+Steps Performed:
+1. Opened Event Viewer
+2. Navigated to Windows Logs > Security
+3. Generated multiple failed login attempts
+4. Filtered Event ID 4625 to review failed logins
+5. Filtered Event ID 4624 to review successful logins
+6. Exported the Security log as evidence
+
+Key Findings:
+- Failed login attempts were recorded under Event ID 4625
+- Successful logins were recorded under Event ID 4624
+- Reviewing these events helps identify suspicious authentication patterns
+- This type of analysis is useful for detecting brute-force attempts or repeated unauthorized login activity
+
+Conclusion:
+This lab showed how Windows Event Viewer can be used to investigate login activity and identify suspicious authentication events.
